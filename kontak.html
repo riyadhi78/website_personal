@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Saya</title>
+    <style>/* Reset CSS */
+        body, h1, h2, p, label, input, textarea, button {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Styling Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        header h1 {
+            font-size: 36px;
+        }
+        
+        /* Styling Main Content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .kontak, .formulir {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .kontak h2, .formulir h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .kontak p, .formulir p, .formulir label, .formulir input, .formulir textarea, .formulir button {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .kontak a, .formulir input, .formulir textarea, .formulir button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        /* Styling Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hubungi Saya</h1>
+    </header>
+    <main>
+        <section class="kontak">
+            <h2>Informasi Kontak</h2>
+            <p>Email: <a href="mailto:riyadhiahmad78@gmail.com">riyadhiahmad78@gmail.com</a></p>
+            <p>Telepon: <a href="tel:+6287876360922">+6287876360922</a></p>
+            <p>Alamat: Jl.kenari 2 No.34 , kelurahan nagasari, karawang</p>
+        </section>
+        <section class="formulir">
+            <h2>Formulir Kontak</h2>
+            <form action="#" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Hubungi saya</p>
+    </footer>
+</body>
+</html>

@@ -1,2 +1,116 @@
-# website_personal
-website dan cv
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIYADHI BLOG</title>
+    <style>/* Reset CSS */
+        body, h1, h2, p {
+            background-image:url:('https://www.pexels.com/photo/view-of-cityscape-325185/');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Styling Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        header h1 {
+            font-size: 36px;
+        }
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        /* Styling Main Content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        article {
+            margin-bottom: 20px;
+            border: 1px solid #dddddd;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        article h2 {
+            font-size: 30px;
+            font-family:  'Times New Roman', Times, serif;
+            margin-bottom: 10px;
+        }
+        
+        article p {
+            font-size: 18px;
+            color: #333;
+        }
+        
+        article a {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        
+        /* Styling Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Riyadhi Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="http://localhost/cv.html">Profile</a></li>
+                <li><a href="C:/Users/ZONET/Documents/blog.html">Artikel</a></li>
+                <li><a href="https://www.instagram.com/riyadhiahmad77/?next=%2F&hl=id" target="blank">Tentang Saya</a></li>
+                <li><a href="http://localhost/kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Judul Artikel Pertama</h2>
+            <p>Ini adalah deskripsi singkat artikel pertama. Anda dapat menambahkan konten artikel di sini.</p>
+            <a href="#">Baca Selengkapnya</a>
+            <a href="https://www.youtube.com/channel/UCRzYn5M602Rx3lt6uxFUjew" target="blank">link artikel</a> 
+        </article>
+        <article>
+            <h2>Judul Artikel Kedua</h2>
+            <p>Ini adalah deskripsi singkat artikel kedua. Anda dapat menambahkan konten artikel di sini.</p>
+            <a href="#">Baca Selengkapnya</a>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 Blog Keren</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
